@@ -1,0 +1,52 @@
+﻿doc_id,issuer,doc_type,format,pages,chars_per_page,best_parser,scan_pages,blank_pages,broken_ratio_page_max,tables_in_sample,synthetic_degraded,형식분류,수집상태,처리방침,우선순위,근거
+law_silson_std_pdf,법제처,표준약관,pdf,492,768.6,pymupdf,0,1,0.07626,3,false,PDF텍스트,부분손상,직접파싱,1,"492쪽 중 55쪽 깨진 글자 89자, 363쪽 빈 쪽. 두 쪽만 표시하고 490쪽은 색인. 골든셋 근거 다수"
+law_silson_std_hwp,법제처,표준약관,binary_office,,,unsupported,,,,,false,HWP,파싱불가,사람검토큐,3,HWP 는 파서 셋 다 못 읽음. 같은 내용의 PDF 정본이 있어 우선순위 낮음
+law_fcpa_xml,법제처,법령,xml,,,xml,,,,,false,XML,정상,직접파싱,1,법제처 XML. 조문 구조가 태그로 있어 가장 읽기 쉬움
+law_insurance_act_xml,법제처,법령,xml,,,xml,,,,,false,XML,정상,직접파싱,1,법제처 XML. 조문 구조가 태그로 있어 가장 읽기 쉬움
+sf_silson_2605,삼성화재,약관,pdf,157,1857.9,pymupdf,0,0,0.00463,5,false,PDF표중심,정상,다른파서,1,표본 쪽에 표 5개. 기본 파서는 읽는 순서를 섞음 → 표 전용 파서
+db_silson_2101,DB손해보험,약관,pdf,108,1430.1,pymupdf,0,5,0.02165,5,false,PDF표중심,정상,다른파서,1,표본 쪽에 표 5개. 기본 파서는 읽는 순서를 섞음 → 표 전용 파서
+knia_18259,손해보험협회,약관,pdf,27,1538.3,pymupdf,0,0,0.00692,2,false,PDF텍스트,정상,직접파싱,1,"밀도 1538.3, 깨짐 0.00692, 표 2. 손댈 것 없음"
+knia_7000,손해보험협회,약관,pdf,80,1250.3,pymupdf,0,15,0.00434,1,false,PDF텍스트,부분손상,직접파싱,2,"도형만 있는 쪽이 있어 밀도 편차 큼. 그 쪽 표시, 본문은 색인"
+knia_4000,손해보험협회,사업비안내,pdf,1,639.0,pymupdf,0,0,0.0,3,false,PDF텍스트,부분손상,다른파서,1,밀도 639.0로 낮고 단어 사이 공백이 사라짐 → pdfplumber
+knia_3500_scan,손해보험협회,경영공시,pdf,8,0.0,pymupdf,8,0,0.0,0,false,PDF이미지,부분손상,OCR,2,"8쪽 전부 스캔 이미지, 글자 0자. 강사 OCR 캐시 사용. 8회차에 ""약관 아님"" 분류 제외 시연"
+sonsa_silson_std_2024,제3자 게시본,표준약관,pdf,80,693.2,pymupdf,0,0,0.00537,3,false,PDF텍스트,부분손상,다른파서,1,4세대 연혁본. 공백 소실 → pdfplumber. 제3자 재게시본이라 출처 표기
+abl_cancer_2404,ABL생명,약관,pdf,184,1048.9,pypdf,0,0,0.20408,5,false,PDF텍스트,부분손상,직접파싱,1,깨진 쪽 최대 비율 0.20408. 그 쪽만 표시하고 나머지 색인
+hanacard_std_2017,하나카드,표준약관,pdf,21,1433.8,pymupdf,0,0,0.0,0,false,PDF텍스트,정상,직접파싱,1,"밀도 1433.8, 깨짐 0.0, 표 0. 손댈 것 없음"
+sc_card_std_2021,SC제일은행,표준약관,pdf,33,1153.2,pymupdf,0,0,0.0,0,false,PDF텍스트,정상,직접파싱,1,"밀도 1153.2, 깨짐 0.0, 표 0. 손댈 것 없음"
+hanacard_diff_2016,하나카드,개정대비표,pdf,19,1095.3,pymupdf,0,1,0.0,5,false,PDF표중심,정상,다른파서,1,표본 쪽에 표 5개. 기본 파서는 읽는 순서를 섞음 → 표 전용 파서
+kb_card_annex_2008,KB국민카드,부속약관,pdf,3,1277.0,pymupdf,0,0,0.0,0,false,PDF텍스트,정상,직접파싱,2,오검색 대조군(제31조가 없어야 함). 색인하되 골든셋 근거 아님
+kbcard_rates_html,KB국민카드,공시,html,,,html_strip,,,,,false,HTML,정상,직접파싱,1,"HTML 본문 13,072자. 태그만 걷어내면 됨"
+kbcard_overseas_html,KB국민카드,이용안내,html,,,html_strip,,,,,false,HTML,정상,직접파싱,1,"HTML 본문 16,563자. 태그만 걷어내면 됨"
+kbcard_delinquency_html,KB국민카드,이용안내,html,,,html_strip,,,,,false,HTML,정상,직접파싱,1,"HTML 본문 9,577자. 태그만 걷어내면 됨"
+kbstar_deposit_2021,KB국민은행,상품설명서,pdf,6,1050.3,pymupdf,0,0,0.0,15,false,PDF표중심,정상,다른파서,1,심의 유효기간 2023.02.01 만료. 색인하되 답변에 경고. 표 6쪽
+kakao_deposit_2026_pdf,카카오뱅크,상품설명서,pdf,5,1154.8,pymupdf,0,0,0.0,13,false,PDF표중심,정상,다른파서,1,표본 쪽에 표 13개. 기본 파서는 읽는 순서를 섞음 → 표 전용 파서
+kakao_deposit_2026_txt,카카오뱅크,상품설명서,text,,,plain,,,,,false,TXT,정상,직접파싱,2,카카오 정기예금 PDF 와 같은 내용의 텍스트판. 파서 품질과 무관한 대조군
+kakao_deposit_special_2019,카카오뱅크,상품설명서,pdf,4,938.5,pymupdf,0,0,0.0,10,false,PDF표중심,정상,다른파서,1,표본 쪽에 표 10개. 기본 파서는 읽는 순서를 섞음 → 표 전용 파서
+kakao_deposit_terms_2024,카카오뱅크,특약,pdf,2,1206.5,pymupdf,0,0,0.0,1,false,PDF텍스트,정상,직접파싱,1,"밀도 1206.5, 깨짐 0.0, 표 1. 손댈 것 없음"
+shinhan_orakssil_2025,신한은행,상품설명서,pdf,8,887.5,pymupdf,0,0,0.0,10,false,PDF표중심,정상,다른파서,1,표본 쪽에 표 10개. 기본 파서는 읽는 순서를 섞음 → 표 전용 파서
+nh_jangbyeong_2026,NH농협은행,상품설명서,pdf,10,1041.2,pymupdf,0,0,0.00551,7,false,PDF표중심,정상,다른파서,1,표본 쪽에 표 7개. 기본 파서는 읽는 순서를 섞음 → 표 전용 파서
+fss_deposit_terms_2024_pdf,금융감독원,표준약관,pdf,10,667.2,pymupdf,0,0,0.0,0,false,PDF텍스트,부분손상,다른파서,1,밀도 667.2로 낮고 단어 사이 공백이 사라짐 → pdfplumber
+fss_deposit_terms_2022_hwpx,금융감독원,표준약관,binary_office,,,unsupported,,,,,false,HWP,파싱불가,사람검토큐,3,HWPX. 같은 약관의 2024 PDF 판본이 있음. 형식 때문에 판본 비교가 막히는 사례
+fss_credit_terms_2024_pdf,금융감독원,표준약관,pdf,12,871.5,pymupdf,0,0,0.0,0,false,PDF텍스트,부분손상,다른파서,1,밀도 871.5로 낮고 단어 사이 공백이 사라짐 → pdfplumber
+woorisb_rotating_html,우리금융저축은행,상품설명서,html,,,html_strip,,,,,false,HTML,정상,직접파싱,1,"HTML 본문 5,356자. 태그만 걷어내면 됨"
+hana_credit_terms_2009,하나은행,약관,pdf,6,1307.0,pymupdf,0,0,0.02381,0,false,PDF텍스트,부분손상,다른파서,2,"눈엔 멀쩡하나 pypdf 한글 0자, PyMuPDF 6,874자. 폰트 매핑 깨짐. PyMuPDF 로 고정"
+hana_credit_terms_2013,하나은행,약관,pdf,6,1785.7,pymupdf,0,0,0.01235,0,false,PDF텍스트,정상,직접파싱,1,2024.10.16 까지 유효한 판본. 2021년 가입 고객 질문의 정답 판본
+hana_credit_terms_2024,하나은행,약관,pdf,6,2215.2,pymupdf,0,0,0.06329,0,false,PDF텍스트,부분손상,직접파싱,1,1쪽에 국소 깨짐. 그 쪽만 표시. 현행 판본
+hana_credit_terms_2024_table,하나은행,개정대비표,pdf,12,650.8,pymupdf,0,0,0.0,2,false,PDF표중심,정상,다른파서,1,표본 쪽에 표 2개. 기본 파서는 읽는 순서를 섞음 → 표 전용 파서
+hana_household_loan_2014,하나은행,상품설명서,pdf,3,3323.3,pymupdf,0,0,0.00358,5,false,PDF표중심,정상,다른파서,1,기준금리 세 군데 빈칸. 미답변형 문항 근거. 연체이자율 표는 정상
+hana_mortgage_2025,하나은행,상품설명서,pdf,26,1663.3,pymupdf,0,0,0.01453,10,false,PDF표중심,정상,다른파서,1,표본 쪽에 표 10개. 기본 파서는 읽는 순서를 섞음 → 표 전용 파서
+im_household_2025,iM뱅크,상품설명서,pdf,10,2300.7,pymupdf,0,0,0.00475,13,false,PDF표중심,정상,다른파서,1,중도상환수수료 요율 빈칸. 미답변형 문항 근거
+im_mortgage_2024,iM뱅크,상품설명서,pdf,6,3953.2,pymupdf,0,0,0.0038,18,false,PDF표중심,정상,다른파서,1,심의 유효기간 2026.09.30. 수업 중 만료됨. 경고 문구 시연 대상
+sf_realestate_loan_2026,삼성화재,상품설명서,pdf,14,1589.6,pymupdf,0,0,0.02352,12,false,PDF표중심,정상,다른파서,1,표본 쪽에 표 12개. 기본 파서는 읽는 순서를 섞음 → 표 전용 파서
+fss_case_001,금융감독원,분쟁조정사례,html,,,html_strip,,,,,false,HTML,정상,직접파싱,1,"HTML 본문 19,914자. 태그만 걷어내면 됨"
+fss_case_002,금융감독원,분쟁조정사례,html,,,html_strip,,,,,false,HTML,정상,직접파싱,1,"HTML 본문 19,787자. 태그만 걷어내면 됨"
+fss_case_003,금융감독원,분쟁조정사례,html,,,html_strip,,,,,false,HTML,정상,직접파싱,1,"HTML 본문 19,787자. 태그만 걷어내면 됨"
+fss_case_004,금융감독원,분쟁조정사례,html,,,html_strip,,,,,false,HTML,정상,직접파싱,1,"HTML 본문 19,678자. 태그만 걷어내면 됨"
+fss_case_005,금융감독원,분쟁조정사례,html,,,html_strip,,,,,false,HTML,정상,직접파싱,1,"HTML 본문 19,882자. 태그만 걷어내면 됨"
+fss_case_006,금융감독원,분쟁조정사례,html,,,html_strip,,,,,false,HTML,정상,직접파싱,2,평가용 홀드아웃 5건. 6회차 설계에 따라 색인 여부 결정
+fss_case_007,금융감독원,분쟁조정사례,html,,,html_strip,,,,,false,HTML,정상,직접파싱,2,평가용 홀드아웃 5건. 6회차 설계에 따라 색인 여부 결정
+fss_case_008,금융감독원,분쟁조정사례,html,,,html_strip,,,,,false,HTML,정상,직접파싱,2,평가용 홀드아웃 5건. 6회차 설계에 따라 색인 여부 결정
+fss_case_009,금융감독원,분쟁조정사례,html,,,html_strip,,,,,false,HTML,정상,직접파싱,2,평가용 홀드아웃 5건. 6회차 설계에 따라 색인 여부 결정
+fss_case_010,금융감독원,분쟁조정사례,html,,,html_strip,,,,,false,HTML,정상,직접파싱,2,평가용 홀드아웃 5건. 6회차 설계에 따라 색인 여부 결정
+degraded_hana_mortgage_2025,(로컬 생성),상품설명서,pdf,2,0.0,pymupdf,2,0,0.0,0,true,PDF이미지,부분손상,OCR,3,실습용 열화본. 원본은 hana_mortgage_2025. 통계와 평가에서 실데이터와 분리
+degraded_kbstar_deposit_2021,(로컬 생성),상품설명서,pdf,1,0.0,pymupdf,1,0,0.0,0,true,PDF이미지,부분손상,OCR,3,실습용 열화본. 원본은 kbstar_deposit_2021. 표 OCR 정확도 하한 측정용
