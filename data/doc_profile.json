@@ -1,0 +1,2285 @@
+{
+ "law_silson_std_pdf": {
+  "kind": "pdf",
+  "pages": 492,
+  "extractors": {
+   "pypdf": {
+    "chars": 441119,
+    "hangul": 288531
+   },
+   "pymupdf": {
+    "chars": 378165,
+    "hangul": 288531
+   },
+   "pdfplumber_sample": {
+    "sampled_pages": [
+     1,
+     99,
+     197,
+     296,
+     394
+    ],
+    "chars": 5280,
+    "spaces": 888,
+    "tables": 3,
+    "ok": true
+   }
+  },
+  "best_parser": "pymupdf",
+  "chars": 378165,
+  "hangul": 288531,
+  "chars_per_page": 768.6,
+  "density_cv": 0.215,
+  "empty_pages": [
+   363
+  ],
+  "empty_page_count": 1,
+  "scan_pages": [],
+  "blank_pages": [
+   363
+  ],
+  "vector_only_pages": [],
+  "scan_page_count": 0,
+  "blank_page_count": 1,
+  "broken_ratio_doc": 0.00075,
+  "broken_ratio_page_max": 0.07626,
+  "broken_page": 55,
+  "broken_chars": [
+   "U+F000×89"
+  ],
+  "space_rate_pymupdf": 0.0683,
+  "space_rate_pdfplumber": 0.1682,
+  "tables_in_sample": 3,
+  "must_contain_ok": true,
+  "must_contain_missing": [],
+  "must_not_contain_ok": true,
+  "must_not_contain_unexpected": [],
+  "quality": "국소깨짐",
+  "handling": "55쪽 재시도 후 사람 확인",
+  "difficulty": 4,
+  "traits_measured": [
+   "국소깨짐",
+   "빈페이지",
+   "공백소실",
+   "표중심"
+  ],
+  "bytes": 3557818
+ },
+ "law_silson_std_hwp": {
+  "kind": "binary_office",
+  "pages": null,
+  "chars": 0,
+  "hangul": 0,
+  "best_parser": "unsupported",
+  "must_contain_ok": true,
+  "must_contain_missing": [],
+  "must_not_contain_ok": true,
+  "must_not_contain_unexpected": [],
+  "quality": "정상텍스트",
+  "handling": "직접 파싱",
+  "difficulty": 1,
+  "traits_measured": [],
+  "bytes": 1716736
+ },
+ "law_fcpa_xml": {
+  "kind": "xml",
+  "pages": null,
+  "chars": 64532,
+  "hangul": 42212,
+  "best_parser": "xml",
+  "must_contain_ok": true,
+  "must_contain_missing": [],
+  "must_not_contain_ok": true,
+  "must_not_contain_unexpected": [],
+  "quality": "정상텍스트",
+  "handling": "직접 파싱",
+  "difficulty": 1,
+  "traits_measured": [],
+  "bytes": 234457
+ },
+ "law_insurance_act_xml": {
+  "kind": "xml",
+  "pages": null,
+  "chars": 124402,
+  "hangul": 73540,
+  "best_parser": "xml",
+  "must_contain_ok": true,
+  "must_contain_missing": [],
+  "must_not_contain_ok": true,
+  "must_not_contain_unexpected": [],
+  "quality": "정상텍스트",
+  "handling": "직접 파싱",
+  "difficulty": 1,
+  "traits_measured": [],
+  "bytes": 502824
+ },
+ "sf_silson_2605": {
+  "kind": "pdf",
+  "pages": 157,
+  "extractors": {
+   "pypdf": {
+    "chars": 331873,
+    "hangul": 183495
+   },
+   "pymupdf": {
+    "chars": 291692,
+    "hangul": 183495
+   },
+   "pdfplumber_sample": {
+    "sampled_pages": [
+     1,
+     32,
+     63,
+     95,
+     126
+    ],
+    "chars": 7512,
+    "spaces": 1550,
+    "tables": 5,
+    "ok": true
+   }
+  },
+  "best_parser": "pymupdf",
+  "chars": 291692,
+  "hangul": 183495,
+  "chars_per_page": 1857.9,
+  "density_cv": 0.42,
+  "empty_pages": [
+   76,
+   78,
+   155
+  ],
+  "empty_page_count": 3,
+  "scan_pages": [],
+  "blank_pages": [],
+  "vector_only_pages": [
+   76,
+   78,
+   155
+  ],
+  "scan_page_count": 0,
+  "blank_page_count": 0,
+  "broken_ratio_doc": 5e-05,
+  "broken_ratio_page_max": 0.00463,
+  "broken_page": 90,
+  "broken_chars": [
+   "U+33A0×6",
+   "U+339D×3"
+  ],
+  "space_rate_pymupdf": 0.2189,
+  "space_rate_pdfplumber": 0.2063,
+  "tables_in_sample": 5,
+  "must_contain_ok": true,
+  "must_contain_missing": [],
+  "must_not_contain_ok": true,
+  "must_not_contain_unexpected": [],
+  "quality": "표중심",
+  "handling": "표 특화 파서",
+  "difficulty": 3,
+  "traits_measured": [
+   "도형전용페이지",
+   "표중심"
+  ],
+  "bytes": 2519879
+ },
+ "db_silson_2101": {
+  "kind": "pdf",
+  "pages": 108,
+  "extractors": {
+   "pypdf": {
+    "chars": 156564,
+    "hangul": 96756
+   },
+   "pymupdf": {
+    "chars": 154451,
+    "hangul": 96756
+   },
+   "pdfplumber_sample": {
+    "sampled_pages": [
+     1,
+     22,
+     44,
+     65,
+     87
+    ],
+    "chars": 6453,
+    "spaces": 1207,
+    "tables": 5,
+    "ok": true
+   }
+  },
+  "best_parser": "pymupdf",
+  "chars": 154451,
+  "hangul": 96756,
+  "chars_per_page": 1430.1,
+  "density_cv": 0.567,
+  "empty_pages": [
+   1,
+   2,
+   8,
+   32,
+   33,
+   63,
+   76,
+   77,
+   107,
+   108
+  ],
+  "empty_page_count": 10,
+  "scan_pages": [],
+  "blank_pages": [
+   1,
+   2,
+   8,
+   32,
+   76
+  ],
+  "vector_only_pages": [
+   33,
+   63,
+   77,
+   107,
+   108
+  ],
+  "scan_page_count": 0,
+  "blank_page_count": 5,
+  "broken_ratio_doc": 0.00366,
+  "broken_ratio_page_max": 0.02165,
+  "broken_page": 85,
+  "broken_chars": [
+   "U+F02B1×13",
+   "U+F02B2×12",
+   "U+F02B3×5",
+   "U+F02B4×2",
+   "U+F02B5×2",
+   "U+F02B6×1",
+   "U+F02B7×1"
+  ],
+  "space_rate_pymupdf": 0.192,
+  "space_rate_pdfplumber": 0.187,
+  "tables_in_sample": 5,
+  "must_contain_ok": true,
+  "must_contain_missing": [],
+  "must_not_contain_ok": true,
+  "must_not_contain_unexpected": [],
+  "quality": "표중심",
+  "handling": "표 특화 파서",
+  "difficulty": 3,
+  "traits_measured": [
+   "빈페이지",
+   "도형전용페이지",
+   "표중심"
+  ],
+  "bytes": 5078236
+ },
+ "knia_18259": {
+  "kind": "pdf",
+  "pages": 27,
+  "extractors": {
+   "pypdf": {
+    "chars": 41510,
+    "hangul": 27387
+   },
+   "pymupdf": {
+    "chars": 41533,
+    "hangul": 27387
+   },
+   "pdfplumber_sample": {
+    "sampled_pages": [
+     1,
+     6,
+     11,
+     17,
+     22
+    ],
+    "chars": 6199,
+    "spaces": 1249,
+    "tables": 2,
+    "ok": true
+   }
+  },
+  "best_parser": "pymupdf",
+  "chars": 41533,
+  "hangul": 27387,
+  "chars_per_page": 1538.3,
+  "density_cv": 0.379,
+  "empty_pages": [],
+  "empty_page_count": 0,
+  "scan_pages": [],
+  "blank_pages": [],
+  "vector_only_pages": [],
+  "scan_page_count": 0,
+  "blank_page_count": 0,
+  "broken_ratio_doc": 0.0025,
+  "broken_ratio_page_max": 0.00692,
+  "broken_page": 17,
+  "broken_chars": [
+   "U+F000×13"
+  ],
+  "space_rate_pymupdf": 0.2057,
+  "space_rate_pdfplumber": 0.2015,
+  "tables_in_sample": 2,
+  "must_contain_ok": true,
+  "must_contain_missing": [],
+  "must_not_contain_ok": true,
+  "must_not_contain_unexpected": [],
+  "quality": "정상텍스트",
+  "handling": "직접 파싱",
+  "difficulty": 1,
+  "traits_measured": [],
+  "bytes": 222148
+ },
+ "knia_7000": {
+  "kind": "pdf",
+  "pages": 80,
+  "extractors": {
+   "pypdf": {
+    "chars": 99955,
+    "hangul": 64130
+   },
+   "pymupdf": {
+    "chars": 100022,
+    "hangul": 64130
+   },
+   "pdfplumber_sample": {
+    "sampled_pages": [
+     1,
+     17,
+     33,
+     49,
+     65
+    ],
+    "chars": 6590,
+    "spaces": 1319,
+    "tables": 1,
+    "ok": true
+   }
+  },
+  "best_parser": "pymupdf",
+  "chars": 100022,
+  "hangul": 64130,
+  "chars_per_page": 1250.3,
+  "density_cv": 0.838,
+  "empty_pages": [
+   2,
+   16,
+   18,
+   20,
+   28,
+   30,
+   32,
+   40,
+   46,
+   50,
+   52,
+   56,
+   58,
+   62,
+   64,
+   77,
+   78,
+   79,
+   80
+  ],
+  "empty_page_count": 19,
+  "scan_pages": [],
+  "blank_pages": [
+   2,
+   16,
+   18,
+   20,
+   28,
+   30,
+   32,
+   40,
+   46,
+   50,
+   52,
+   56,
+   58,
+   62,
+   64
+  ],
+  "vector_only_pages": [
+   77,
+   78,
+   79,
+   80
+  ],
+  "scan_page_count": 0,
+  "blank_page_count": 15,
+  "broken_ratio_doc": 0.00023,
+  "broken_ratio_page_max": 0.00434,
+  "broken_page": 67,
+  "broken_chars": [
+   "U+33A0×6",
+   "U+339D×3"
+  ],
+  "space_rate_pymupdf": 0.2243,
+  "space_rate_pdfplumber": 0.2002,
+  "tables_in_sample": 1,
+  "must_contain_ok": true,
+  "must_contain_missing": [],
+  "must_not_contain_ok": true,
+  "must_not_contain_unexpected": [],
+  "quality": "도형전용페이지",
+  "handling": "사람 확인",
+  "difficulty": 2,
+  "traits_measured": [
+   "빈페이지",
+   "도형전용페이지",
+   "밀도편차"
+  ],
+  "bytes": 446307
+ },
+ "knia_4000": {
+  "kind": "pdf",
+  "pages": 1,
+  "extractors": {
+   "pypdf": {
+    "chars": 849,
+    "hangul": 320
+   },
+   "pymupdf": {
+    "chars": 639,
+    "hangul": 320
+   },
+   "pdfplumber_sample": {
+    "sampled_pages": [
+     1
+    ],
+    "chars": 621,
+    "spaces": 96,
+    "tables": 3,
+    "ok": true
+   }
+  },
+  "best_parser": "pymupdf",
+  "chars": 639,
+  "hangul": 320,
+  "chars_per_page": 639.0,
+  "density_cv": 0.0,
+  "empty_pages": [],
+  "empty_page_count": 0,
+  "scan_pages": [],
+  "blank_pages": [],
+  "vector_only_pages": [],
+  "scan_page_count": 0,
+  "blank_page_count": 0,
+  "broken_ratio_doc": 0.0,
+  "broken_ratio_page_max": 0.0,
+  "broken_page": null,
+  "broken_chars": [],
+  "space_rate_pymupdf": 0.0172,
+  "space_rate_pdfplumber": 0.1546,
+  "tables_in_sample": 3,
+  "must_contain_ok": true,
+  "must_contain_missing": [],
+  "must_not_contain_ok": true,
+  "must_not_contain_unexpected": [],
+  "quality": "공백소실",
+  "handling": "pdfplumber 로 재추출",
+  "difficulty": 3,
+  "traits_measured": [
+   "공백소실",
+   "표중심"
+  ],
+  "bytes": 294638
+ },
+ "knia_3500_scan": {
+  "kind": "pdf",
+  "pages": 8,
+  "extractors": {
+   "pypdf": {
+    "chars": 0,
+    "hangul": 0
+   },
+   "pymupdf": {
+    "chars": 0,
+    "hangul": 0
+   },
+   "pdfplumber_sample": {
+    "sampled_pages": [
+     1,
+     2,
+     4,
+     5,
+     7
+    ],
+    "chars": 0,
+    "spaces": 0,
+    "tables": 0,
+    "ok": true
+   }
+  },
+  "best_parser": "pymupdf",
+  "chars": 0,
+  "hangul": 0,
+  "chars_per_page": 0.0,
+  "density_cv": 0.0,
+  "empty_pages": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8
+  ],
+  "empty_page_count": 8,
+  "scan_pages": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8
+  ],
+  "blank_pages": [],
+  "vector_only_pages": [],
+  "scan_page_count": 8,
+  "blank_page_count": 0,
+  "broken_ratio_doc": 0.0,
+  "broken_ratio_page_max": 0.0,
+  "broken_page": null,
+  "broken_chars": [],
+  "space_rate_pymupdf": 0.0,
+  "space_rate_pdfplumber": 0.0,
+  "tables_in_sample": 0,
+  "must_contain_ok": true,
+  "must_contain_missing": [],
+  "must_not_contain_ok": true,
+  "must_not_contain_unexpected": [],
+  "quality": "이미지전용",
+  "handling": "전체 OCR",
+  "difficulty": 5,
+  "traits_measured": [
+   "이미지전용",
+   "스캔페이지혼재"
+  ],
+  "bytes": 150714
+ },
+ "sonsa_silson_std_2024": {
+  "kind": "pdf",
+  "pages": 80,
+  "extractors": {
+   "pypdf": {
+    "chars": 64350,
+    "hangul": 42436
+   },
+   "pymupdf": {
+    "chars": 55459,
+    "hangul": 42436
+   },
+   "pdfplumber_sample": {
+    "sampled_pages": [
+     1,
+     17,
+     33,
+     49,
+     65
+    ],
+    "chars": 4721,
+    "spaces": 874,
+    "tables": 3,
+    "ok": true
+   }
+  },
+  "best_parser": "pymupdf",
+  "chars": 55459,
+  "hangul": 42436,
+  "chars_per_page": 693.2,
+  "density_cv": 0.221,
+  "empty_pages": [],
+  "empty_page_count": 0,
+  "scan_pages": [],
+  "blank_pages": [],
+  "vector_only_pages": [],
+  "scan_page_count": 0,
+  "blank_page_count": 0,
+  "broken_ratio_doc": 5e-05,
+  "broken_ratio_page_max": 0.00537,
+  "broken_page": 26,
+  "broken_chars": [
+   "U+2784×1",
+   "U+2785×1",
+   "U+2786×1"
+  ],
+  "space_rate_pymupdf": 0.0238,
+  "space_rate_pdfplumber": 0.1851,
+  "tables_in_sample": 3,
+  "must_contain_ok": true,
+  "must_contain_missing": [],
+  "must_not_contain_ok": true,
+  "must_not_contain_unexpected": [],
+  "quality": "공백소실",
+  "handling": "pdfplumber 로 재추출",
+  "difficulty": 3,
+  "traits_measured": [
+   "공백소실",
+   "표중심"
+  ],
+  "bytes": 1294119
+ },
+ "abl_cancer_2404": {
+  "kind": "pdf",
+  "pages": 184,
+  "extractors": {
+   "pypdf": {
+    "chars": 192991,
+    "hangul": 128858
+   },
+   "pymupdf": {
+    "chars": 192707,
+    "hangul": 128802
+   },
+   "pdfplumber_sample": {
+    "sampled_pages": [
+     1,
+     37,
+     74,
+     111,
+     148
+    ],
+    "chars": 3311,
+    "spaces": 640,
+    "tables": 5,
+    "ok": true
+   }
+  },
+  "best_parser": "pypdf",
+  "chars": 192991,
+  "hangul": 128858,
+  "chars_per_page": 1048.9,
+  "density_cv": 0.427,
+  "empty_pages": [],
+  "empty_page_count": 0,
+  "scan_pages": [],
+  "blank_pages": [],
+  "vector_only_pages": [],
+  "scan_page_count": 0,
+  "blank_page_count": 0,
+  "broken_ratio_doc": 0.00382,
+  "broken_ratio_page_max": 0.20408,
+  "broken_page": 6,
+  "broken_chars": [
+   "U+0001×11",
+   "U+09A1×4",
+   "U+05E4×3",
+   "U+0A4B×3",
+   "U+04DD×2",
+   "U+0926×2",
+   "U+0AD1×2",
+   "U+000F×2"
+  ],
+  "space_rate_pymupdf": 0.1995,
+  "space_rate_pdfplumber": 0.1933,
+  "tables_in_sample": 5,
+  "must_contain_ok": true,
+  "must_contain_missing": [],
+  "must_not_contain_ok": true,
+  "must_not_contain_unexpected": [],
+  "quality": "국소깨짐",
+  "handling": "6쪽 재시도 후 사람 확인",
+  "difficulty": 4,
+  "traits_measured": [
+   "국소깨짐",
+   "표중심"
+  ],
+  "bytes": 12060709
+ },
+ "hanacard_std_2017": {
+  "kind": "pdf",
+  "pages": 21,
+  "extractors": {
+   "pypdf": {
+    "chars": 30172,
+    "hangul": 20529
+   },
+   "pymupdf": {
+    "chars": 30109,
+    "hangul": 20529
+   },
+   "pdfplumber_sample": {
+    "sampled_pages": [
+     1,
+     5,
+     9,
+     13,
+     17
+    ],
+    "chars": 6770,
+    "spaces": 1393,
+    "tables": 0,
+    "ok": true
+   }
+  },
+  "best_parser": "pymupdf",
+  "chars": 30109,
+  "hangul": 20529,
+  "chars_per_page": 1433.8,
+  "density_cv": 0.142,
+  "empty_pages": [],
+  "empty_page_count": 0,
+  "scan_pages": [],
+  "blank_pages": [],
+  "vector_only_pages": [],
+  "scan_page_count": 0,
+  "blank_page_count": 0,
+  "broken_ratio_doc": 0.0,
+  "broken_ratio_page_max": 0.0,
+  "broken_page": null,
+  "broken_chars": [],
+  "space_rate_pymupdf": 0.2245,
+  "space_rate_pdfplumber": 0.2058,
+  "tables_in_sample": 0,
+  "must_contain_ok": true,
+  "must_contain_missing": [],
+  "must_not_contain_ok": true,
+  "must_not_contain_unexpected": [],
+  "quality": "정상텍스트",
+  "handling": "직접 파싱",
+  "difficulty": 1,
+  "traits_measured": [],
+  "bytes": 341749
+ },
+ "sc_card_std_2021": {
+  "kind": "pdf",
+  "pages": 33,
+  "extractors": {
+   "pypdf": {
+    "chars": 38850,
+    "hangul": 25853
+   },
+   "pymupdf": {
+    "chars": 38055,
+    "hangul": 25853
+   },
+   "pdfplumber_sample": {
+    "sampled_pages": [
+     1,
+     7,
+     14,
+     20,
+     27
+    ],
+    "chars": 5107,
+    "spaces": 1068,
+    "tables": 0,
+    "ok": true
+   }
+  },
+  "best_parser": "pymupdf",
+  "chars": 38055,
+  "hangul": 25853,
+  "chars_per_page": 1153.2,
+  "density_cv": 0.13,
+  "empty_pages": [],
+  "empty_page_count": 0,
+  "scan_pages": [],
+  "blank_pages": [],
+  "vector_only_pages": [],
+  "scan_page_count": 0,
+  "blank_page_count": 0,
+  "broken_ratio_doc": 0.0,
+  "broken_ratio_page_max": 0.0,
+  "broken_page": null,
+  "broken_chars": [],
+  "space_rate_pymupdf": 0.2267,
+  "space_rate_pdfplumber": 0.2091,
+  "tables_in_sample": 0,
+  "must_contain_ok": true,
+  "must_contain_missing": [],
+  "must_not_contain_ok": true,
+  "must_not_contain_unexpected": [],
+  "quality": "정상텍스트",
+  "handling": "직접 파싱",
+  "difficulty": 1,
+  "traits_measured": [],
+  "bytes": 1135785
+ },
+ "hanacard_diff_2016": {
+  "kind": "pdf",
+  "pages": 19,
+  "extractors": {
+   "pypdf": {
+    "chars": 20750,
+    "hangul": 12351
+   },
+   "pymupdf": {
+    "chars": 20811,
+    "hangul": 12351
+   },
+   "pdfplumber_sample": {
+    "sampled_pages": [
+     1,
+     4,
+     8,
+     12,
+     16
+    ],
+    "chars": 4987,
+    "spaces": 1050,
+    "tables": 5,
+    "ok": true
+   }
+  },
+  "best_parser": "pymupdf",
+  "chars": 20811,
+  "hangul": 12351,
+  "chars_per_page": 1095.3,
+  "density_cv": 0.291,
+  "empty_pages": [
+   19
+  ],
+  "empty_page_count": 1,
+  "scan_pages": [],
+  "blank_pages": [
+   19
+  ],
+  "vector_only_pages": [],
+  "scan_page_count": 0,
+  "blank_page_count": 1,
+  "broken_ratio_doc": 0.0,
+  "broken_ratio_page_max": 0.0,
+  "broken_page": null,
+  "broken_chars": [],
+  "space_rate_pymupdf": 0.2479,
+  "space_rate_pdfplumber": 0.2105,
+  "tables_in_sample": 5,
+  "must_contain_ok": true,
+  "must_contain_missing": [],
+  "must_not_contain_ok": true,
+  "must_not_contain_unexpected": [],
+  "quality": "표중심",
+  "handling": "표 특화 파서",
+  "difficulty": 3,
+  "traits_measured": [
+   "빈페이지",
+   "표중심"
+  ],
+  "bytes": 611573
+ },
+ "kb_card_annex_2008": {
+  "kind": "pdf",
+  "pages": 3,
+  "extractors": {
+   "pypdf": {
+    "chars": 3818,
+    "hangul": 2615
+   },
+   "pymupdf": {
+    "chars": 3831,
+    "hangul": 2615
+   },
+   "pdfplumber_sample": {
+    "sampled_pages": [
+     1,
+     2,
+     3
+    ],
+    "chars": 3629,
+    "spaces": 669,
+    "tables": 0,
+    "ok": true
+   }
+  },
+  "best_parser": "pymupdf",
+  "chars": 3831,
+  "hangul": 2615,
+  "chars_per_page": 1277.0,
+  "density_cv": 0.156,
+  "empty_pages": [],
+  "empty_page_count": 0,
+  "scan_pages": [],
+  "blank_pages": [],
+  "vector_only_pages": [],
+  "scan_page_count": 0,
+  "blank_page_count": 0,
+  "broken_ratio_doc": 0.0,
+  "broken_ratio_page_max": 0.0,
+  "broken_page": null,
+  "broken_chars": [],
+  "space_rate_pymupdf": 0.2135,
+  "space_rate_pdfplumber": 0.1843,
+  "tables_in_sample": 0,
+  "must_contain_ok": true,
+  "must_contain_missing": [],
+  "must_not_contain_ok": true,
+  "must_not_contain_unexpected": [],
+  "quality": "정상텍스트",
+  "handling": "직접 파싱",
+  "difficulty": 1,
+  "traits_measured": [],
+  "bytes": 122954
+ },
+ "kbcard_rates_html": {
+  "kind": "html",
+  "pages": null,
+  "chars": 13072,
+  "hangul": 5825,
+  "best_parser": "html_strip",
+  "must_contain_ok": true,
+  "must_contain_missing": [],
+  "must_not_contain_ok": true,
+  "must_not_contain_unexpected": [],
+  "quality": "정상텍스트",
+  "handling": "직접 파싱",
+  "difficulty": 1,
+  "traits_measured": [],
+  "bytes": 182503
+ },
+ "kbcard_overseas_html": {
+  "kind": "html",
+  "pages": null,
+  "chars": 16563,
+  "hangul": 11041,
+  "best_parser": "html_strip",
+  "must_contain_ok": true,
+  "must_contain_missing": [],
+  "must_not_contain_ok": true,
+  "must_not_contain_unexpected": [],
+  "quality": "정상텍스트",
+  "handling": "직접 파싱",
+  "difficulty": 1,
+  "traits_measured": [],
+  "bytes": 283060
+ },
+ "kbcard_delinquency_html": {
+  "kind": "html",
+  "pages": null,
+  "chars": 9577,
+  "hangul": 6252,
+  "best_parser": "html_strip",
+  "must_contain_ok": true,
+  "must_contain_missing": [],
+  "must_not_contain_ok": true,
+  "must_not_contain_unexpected": [],
+  "quality": "정상텍스트",
+  "handling": "직접 파싱",
+  "difficulty": 1,
+  "traits_measured": [],
+  "bytes": 180793
+ },
+ "kbstar_deposit_2021": {
+  "kind": "pdf",
+  "pages": 6,
+  "extractors": {
+   "pypdf": {
+    "chars": 6278,
+    "hangul": 3586
+   },
+   "pymupdf": {
+    "chars": 6302,
+    "hangul": 3586
+   },
+   "pdfplumber_sample": {
+    "sampled_pages": [
+     1,
+     2,
+     3,
+     4,
+     5
+    ],
+    "chars": 5331,
+    "spaces": 986,
+    "tables": 15,
+    "ok": true
+   }
+  },
+  "best_parser": "pymupdf",
+  "chars": 6302,
+  "hangul": 3586,
+  "chars_per_page": 1050.3,
+  "density_cv": 0.323,
+  "empty_pages": [],
+  "empty_page_count": 0,
+  "scan_pages": [],
+  "blank_pages": [],
+  "vector_only_pages": [],
+  "scan_page_count": 0,
+  "blank_page_count": 0,
+  "broken_ratio_doc": 0.0,
+  "broken_ratio_page_max": 0.0,
+  "broken_page": null,
+  "broken_chars": [],
+  "space_rate_pymupdf": 0.251,
+  "space_rate_pdfplumber": 0.185,
+  "tables_in_sample": 15,
+  "must_contain_ok": true,
+  "must_contain_missing": [],
+  "must_not_contain_ok": true,
+  "must_not_contain_unexpected": [],
+  "quality": "표중심",
+  "handling": "표 특화 파서",
+  "difficulty": 3,
+  "traits_measured": [
+   "표중심"
+  ],
+  "bytes": 293930
+ },
+ "kakao_deposit_2026_pdf": {
+  "kind": "pdf",
+  "pages": 5,
+  "extractors": {
+   "pypdf": {
+    "chars": 5659,
+    "hangul": 3526
+   },
+   "pymupdf": {
+    "chars": 5774,
+    "hangul": 3526
+   },
+   "pdfplumber_sample": {
+    "sampled_pages": [
+     1,
+     2,
+     3,
+     4,
+     5
+    ],
+    "chars": 5398,
+    "spaces": 1085,
+    "tables": 13,
+    "ok": true
+   }
+  },
+  "best_parser": "pymupdf",
+  "chars": 5774,
+  "hangul": 3526,
+  "chars_per_page": 1154.8,
+  "density_cv": 0.37,
+  "empty_pages": [],
+  "empty_page_count": 0,
+  "scan_pages": [],
+  "blank_pages": [],
+  "vector_only_pages": [],
+  "scan_page_count": 0,
+  "blank_page_count": 0,
+  "broken_ratio_doc": 0.0,
+  "broken_ratio_page_max": 0.0,
+  "broken_page": null,
+  "broken_chars": [],
+  "space_rate_pymupdf": 0.2333,
+  "space_rate_pdfplumber": 0.201,
+  "tables_in_sample": 13,
+  "must_contain_ok": true,
+  "must_contain_missing": [],
+  "must_not_contain_ok": true,
+  "must_not_contain_unexpected": [],
+  "quality": "표중심",
+  "handling": "표 특화 파서",
+  "difficulty": 3,
+  "traits_measured": [
+   "표중심"
+  ],
+  "bytes": 512625
+ },
+ "kakao_deposit_2026_txt": {
+  "kind": "text",
+  "pages": null,
+  "chars": 8444,
+  "hangul": 3526,
+  "best_parser": "plain",
+  "must_contain_ok": true,
+  "must_contain_missing": [],
+  "must_not_contain_ok": true,
+  "must_not_contain_unexpected": [],
+  "quality": "정상텍스트",
+  "handling": "직접 파싱",
+  "difficulty": 1,
+  "traits_measured": [],
+  "bytes": 15616
+ },
+ "kakao_deposit_special_2019": {
+  "kind": "pdf",
+  "pages": 4,
+  "extractors": {
+   "pypdf": {
+    "chars": 3713,
+    "hangul": 2209
+   },
+   "pymupdf": {
+    "chars": 3754,
+    "hangul": 2209
+   },
+   "pdfplumber_sample": {
+    "sampled_pages": [
+     1,
+     2,
+     3,
+     4
+    ],
+    "chars": 3462,
+    "spaces": 673,
+    "tables": 10,
+    "ok": true
+   }
+  },
+  "best_parser": "pymupdf",
+  "chars": 3754,
+  "hangul": 2209,
+  "chars_per_page": 938.5,
+  "density_cv": 0.181,
+  "empty_pages": [],
+  "empty_page_count": 0,
+  "scan_pages": [],
+  "blank_pages": [],
+  "vector_only_pages": [],
+  "scan_page_count": 0,
+  "blank_page_count": 0,
+  "broken_ratio_doc": 0.0,
+  "broken_ratio_page_max": 0.0,
+  "broken_page": null,
+  "broken_chars": [],
+  "space_rate_pymupdf": 0.2344,
+  "space_rate_pdfplumber": 0.1944,
+  "tables_in_sample": 10,
+  "must_contain_ok": true,
+  "must_contain_missing": [],
+  "must_not_contain_ok": true,
+  "must_not_contain_unexpected": [],
+  "quality": "표중심",
+  "handling": "표 특화 파서",
+  "difficulty": 3,
+  "traits_measured": [
+   "표중심"
+  ],
+  "bytes": 312587
+ },
+ "kakao_deposit_terms_2024": {
+  "kind": "pdf",
+  "pages": 2,
+  "extractors": {
+   "pypdf": {
+    "chars": 2421,
+    "hangul": 1516
+   },
+   "pymupdf": {
+    "chars": 2413,
+    "hangul": 1516
+   },
+   "pdfplumber_sample": {
+    "sampled_pages": [
+     1,
+     2
+    ],
+    "chars": 2241,
+    "spaces": 453,
+    "tables": 1,
+    "ok": true
+   }
+  },
+  "best_parser": "pymupdf",
+  "chars": 2413,
+  "hangul": 1516,
+  "chars_per_page": 1206.5,
+  "density_cv": 0.232,
+  "empty_pages": [],
+  "empty_page_count": 0,
+  "scan_pages": [],
+  "blank_pages": [],
+  "vector_only_pages": [],
+  "scan_page_count": 0,
+  "blank_page_count": 0,
+  "broken_ratio_doc": 0.0,
+  "broken_ratio_page_max": 0.0,
+  "broken_page": null,
+  "broken_chars": [],
+  "space_rate_pymupdf": 0.247,
+  "space_rate_pdfplumber": 0.2021,
+  "tables_in_sample": 1,
+  "must_contain_ok": true,
+  "must_contain_missing": [],
+  "must_not_contain_ok": true,
+  "must_not_contain_unexpected": [],
+  "quality": "정상텍스트",
+  "handling": "직접 파싱",
+  "difficulty": 1,
+  "traits_measured": [],
+  "bytes": 167986
+ },
+ "shinhan_orakssil_2025": {
+  "kind": "pdf",
+  "pages": 8,
+  "extractors": {
+   "pypdf": {
+    "chars": 7080,
+    "hangul": 3951
+   },
+   "pymupdf": {
+    "chars": 7100,
+    "hangul": 3951
+   },
+   "pdfplumber_sample": {
+    "sampled_pages": [
+     1,
+     2,
+     4,
+     5,
+     7
+    ],
+    "chars": 4535,
+    "spaces": 881,
+    "tables": 10,
+    "ok": true
+   }
+  },
+  "best_parser": "pymupdf",
+  "chars": 7100,
+  "hangul": 3951,
+  "chars_per_page": 887.5,
+  "density_cv": 0.239,
+  "empty_pages": [],
+  "empty_page_count": 0,
+  "scan_pages": [],
+  "blank_pages": [],
+  "vector_only_pages": [],
+  "scan_page_count": 0,
+  "blank_page_count": 0,
+  "broken_ratio_doc": 0.0,
+  "broken_ratio_page_max": 0.0,
+  "broken_page": null,
+  "broken_chars": [],
+  "space_rate_pymupdf": 0.2371,
+  "space_rate_pdfplumber": 0.1943,
+  "tables_in_sample": 10,
+  "must_contain_ok": true,
+  "must_contain_missing": [],
+  "must_not_contain_ok": true,
+  "must_not_contain_unexpected": [],
+  "quality": "표중심",
+  "handling": "표 특화 파서",
+  "difficulty": 3,
+  "traits_measured": [
+   "표중심"
+  ],
+  "bytes": 328404
+ },
+ "nh_jangbyeong_2026": {
+  "kind": "pdf",
+  "pages": 10,
+  "extractors": {
+   "pypdf": {
+    "chars": 10408,
+    "hangul": 6463
+   },
+   "pymupdf": {
+    "chars": 10412,
+    "hangul": 6463
+   },
+   "pdfplumber_sample": {
+    "sampled_pages": [
+     1,
+     3,
+     5,
+     7,
+     9
+    ],
+    "chars": 5306,
+    "spaces": 1050,
+    "tables": 7,
+    "ok": true
+   }
+  },
+  "best_parser": "pymupdf",
+  "chars": 10412,
+  "hangul": 6463,
+  "chars_per_page": 1041.2,
+  "density_cv": 0.234,
+  "empty_pages": [],
+  "empty_page_count": 0,
+  "scan_pages": [],
+  "blank_pages": [],
+  "vector_only_pages": [],
+  "scan_page_count": 0,
+  "blank_page_count": 0,
+  "broken_ratio_doc": 0.00115,
+  "broken_ratio_page_max": 0.00551,
+  "broken_page": 8,
+  "broken_chars": [
+   "U+30FB×6"
+  ],
+  "space_rate_pymupdf": 0.2315,
+  "space_rate_pdfplumber": 0.1979,
+  "tables_in_sample": 7,
+  "must_contain_ok": true,
+  "must_contain_missing": [],
+  "must_not_contain_ok": true,
+  "must_not_contain_unexpected": [],
+  "quality": "표중심",
+  "handling": "표 특화 파서",
+  "difficulty": 3,
+  "traits_measured": [
+   "표중심"
+  ],
+  "bytes": 572747
+ },
+ "fss_deposit_terms_2024_pdf": {
+  "kind": "pdf",
+  "pages": 10,
+  "extractors": {
+   "pypdf": {
+    "chars": 8052,
+    "hangul": 5625
+   },
+   "pymupdf": {
+    "chars": 6672,
+    "hangul": 5625
+   },
+   "pdfplumber_sample": {
+    "sampled_pages": [
+     1,
+     3,
+     5,
+     7,
+     9
+    ],
+    "chars": 4335,
+    "spaces": 886,
+    "tables": 0,
+    "ok": true
+   }
+  },
+  "best_parser": "pymupdf",
+  "chars": 6672,
+  "hangul": 5625,
+  "chars_per_page": 667.2,
+  "density_cv": 0.308,
+  "empty_pages": [],
+  "empty_page_count": 0,
+  "scan_pages": [],
+  "blank_pages": [],
+  "vector_only_pages": [],
+  "scan_page_count": 0,
+  "blank_page_count": 0,
+  "broken_ratio_doc": 0.0,
+  "broken_ratio_page_max": 0.0,
+  "broken_page": null,
+  "broken_chars": [],
+  "space_rate_pymupdf": 0.0254,
+  "space_rate_pdfplumber": 0.2044,
+  "tables_in_sample": 0,
+  "must_contain_ok": true,
+  "must_contain_missing": [],
+  "must_not_contain_ok": true,
+  "must_not_contain_unexpected": [],
+  "quality": "공백소실",
+  "handling": "pdfplumber 로 재추출",
+  "difficulty": 3,
+  "traits_measured": [
+   "공백소실"
+  ],
+  "bytes": 264905
+ },
+ "fss_deposit_terms_2022_hwpx": {
+  "kind": "binary_office",
+  "pages": null,
+  "chars": 0,
+  "hangul": 0,
+  "best_parser": "unsupported",
+  "must_contain_ok": true,
+  "must_contain_missing": [],
+  "must_not_contain_ok": true,
+  "must_not_contain_unexpected": [],
+  "quality": "정상텍스트",
+  "handling": "직접 파싱",
+  "difficulty": 1,
+  "traits_measured": [],
+  "bytes": 213904
+ },
+ "fss_credit_terms_2024_pdf": {
+  "kind": "pdf",
+  "pages": 12,
+  "extractors": {
+   "pypdf": {
+    "chars": 12371,
+    "hangul": 8680
+   },
+   "pymupdf": {
+    "chars": 10458,
+    "hangul": 8680
+   },
+   "pdfplumber_sample": {
+    "sampled_pages": [
+     1,
+     3,
+     5,
+     8,
+     10
+    ],
+    "chars": 5219,
+    "spaces": 1113,
+    "tables": 0,
+    "ok": true
+   }
+  },
+  "best_parser": "pymupdf",
+  "chars": 10458,
+  "hangul": 8680,
+  "chars_per_page": 871.5,
+  "density_cv": 0.138,
+  "empty_pages": [],
+  "empty_page_count": 0,
+  "scan_pages": [],
+  "blank_pages": [],
+  "vector_only_pages": [],
+  "scan_page_count": 0,
+  "blank_page_count": 0,
+  "broken_ratio_doc": 0.0,
+  "broken_ratio_page_max": 0.0,
+  "broken_page": null,
+  "broken_chars": [],
+  "space_rate_pymupdf": 0.0643,
+  "space_rate_pdfplumber": 0.2133,
+  "tables_in_sample": 0,
+  "must_contain_ok": true,
+  "must_contain_missing": [],
+  "must_not_contain_ok": true,
+  "must_not_contain_unexpected": [],
+  "quality": "공백소실",
+  "handling": "pdfplumber 로 재추출",
+  "difficulty": 3,
+  "traits_measured": [
+   "공백소실"
+  ],
+  "bytes": 257839
+ },
+ "woorisb_rotating_html": {
+  "kind": "html",
+  "pages": null,
+  "chars": 5356,
+  "hangul": 3167,
+  "best_parser": "html_strip",
+  "must_contain_ok": true,
+  "must_contain_missing": [],
+  "must_not_contain_ok": true,
+  "must_not_contain_unexpected": [],
+  "quality": "정상텍스트",
+  "handling": "직접 파싱",
+  "difficulty": 1,
+  "traits_measured": [],
+  "bytes": 48783
+ },
+ "hana_credit_terms_2009": {
+  "kind": "pdf",
+  "pages": 6,
+  "extractors": {
+   "pypdf": {
+    "chars": 767,
+    "hangul": 0
+   },
+   "pymupdf": {
+    "chars": 7842,
+    "hangul": 6874
+   },
+   "pdfplumber_sample": {
+    "sampled_pages": [
+     1,
+     2,
+     3,
+     4,
+     5
+    ],
+    "chars": 72983,
+    "spaces": 1806,
+    "tables": 0,
+    "ok": true
+   }
+  },
+  "best_parser": "pymupdf",
+  "chars": 7842,
+  "hangul": 6874,
+  "chars_per_page": 1307.0,
+  "density_cv": 0.592,
+  "empty_pages": [],
+  "empty_page_count": 0,
+  "scan_pages": [],
+  "blank_pages": [],
+  "vector_only_pages": [],
+  "scan_page_count": 0,
+  "blank_page_count": 0,
+  "broken_ratio_doc": 0.00013,
+  "broken_ratio_page_max": 0.02381,
+  "broken_page": 1,
+  "broken_chars": [
+   "U+33A1×1"
+  ],
+  "space_rate_pymupdf": 0.0239,
+  "space_rate_pdfplumber": 0.0247,
+  "tables_in_sample": 0,
+  "must_contain_ok": true,
+  "must_contain_missing": [],
+  "must_not_contain_ok": true,
+  "must_not_contain_unexpected": [],
+  "quality": "폰트깨짐",
+  "handling": "파서 라우팅 → pymupdf",
+  "difficulty": 4,
+  "traits_measured": [
+   "폰트깨짐"
+  ],
+  "bytes": 346736
+ },
+ "hana_credit_terms_2013": {
+  "kind": "pdf",
+  "pages": 6,
+  "extractors": {
+   "pypdf": {
+    "chars": 10915,
+    "hangul": 7275
+   },
+   "pymupdf": {
+    "chars": 10714,
+    "hangul": 7275
+   },
+   "pdfplumber_sample": {
+    "sampled_pages": [
+     1,
+     2,
+     3,
+     4,
+     5
+    ],
+    "chars": 9779,
+    "spaces": 2114,
+    "tables": 0,
+    "ok": true
+   }
+  },
+  "best_parser": "pymupdf",
+  "chars": 10714,
+  "hangul": 7275,
+  "chars_per_page": 1785.7,
+  "density_cv": 0.53,
+  "empty_pages": [],
+  "empty_page_count": 0,
+  "scan_pages": [],
+  "blank_pages": [],
+  "vector_only_pages": [],
+  "scan_page_count": 0,
+  "blank_page_count": 0,
+  "broken_ratio_doc": 0.00056,
+  "broken_ratio_page_max": 0.01235,
+  "broken_page": 1,
+  "broken_chars": [
+   "U+33A1×1"
+  ],
+  "space_rate_pymupdf": 0.2171,
+  "space_rate_pdfplumber": 0.2162,
+  "tables_in_sample": 0,
+  "must_contain_ok": true,
+  "must_contain_missing": [],
+  "must_not_contain_ok": true,
+  "must_not_contain_unexpected": [],
+  "quality": "정상텍스트",
+  "handling": "직접 파싱",
+  "difficulty": 1,
+  "traits_measured": [],
+  "bytes": 106514
+ },
+ "hana_credit_terms_2024": {
+  "kind": "pdf",
+  "pages": 6,
+  "extractors": {
+   "pypdf": {
+    "chars": 13285,
+    "hangul": 8474
+   },
+   "pymupdf": {
+    "chars": 13291,
+    "hangul": 8474
+   },
+   "pdfplumber_sample": {
+    "sampled_pages": [
+     1,
+     2,
+     3,
+     4,
+     5
+    ],
+    "chars": 11547,
+    "spaces": 2489,
+    "tables": 0,
+    "ok": true
+   }
+  },
+  "best_parser": "pymupdf",
+  "chars": 13291,
+  "hangul": 8474,
+  "chars_per_page": 2215.2,
+  "density_cv": 0.581,
+  "empty_pages": [],
+  "empty_page_count": 0,
+  "scan_pages": [],
+  "blank_pages": [],
+  "vector_only_pages": [],
+  "scan_page_count": 0,
+  "blank_page_count": 0,
+  "broken_ratio_doc": 0.00038,
+  "broken_ratio_page_max": 0.06329,
+  "broken_page": 1,
+  "broken_chars": [
+   "U+000B×1",
+   "U+0448×1",
+   "U+048F×1",
+   "U+0A14×1",
+   "U+000C×1"
+  ],
+  "space_rate_pymupdf": 0.279,
+  "space_rate_pdfplumber": 0.2156,
+  "tables_in_sample": 0,
+  "must_contain_ok": true,
+  "must_contain_missing": [],
+  "must_not_contain_ok": true,
+  "must_not_contain_unexpected": [],
+  "quality": "국소깨짐",
+  "handling": "1쪽 재시도 후 사람 확인",
+  "difficulty": 4,
+  "traits_measured": [
+   "국소깨짐"
+  ],
+  "bytes": 131360
+ },
+ "hana_credit_terms_2024_table": {
+  "kind": "pdf",
+  "pages": 12,
+  "extractors": {
+   "pypdf": {
+    "chars": 7709,
+    "hangul": 3035
+   },
+   "pymupdf": {
+    "chars": 7810,
+    "hangul": 3035
+   },
+   "pdfplumber_sample": {
+    "sampled_pages": [
+     1,
+     3,
+     5,
+     8,
+     10
+    ],
+    "chars": 2566,
+    "spaces": 368,
+    "tables": 2,
+    "ok": true
+   }
+  },
+  "best_parser": "pymupdf",
+  "chars": 7810,
+  "hangul": 3035,
+  "chars_per_page": 650.8,
+  "density_cv": 0.476,
+  "empty_pages": [],
+  "empty_page_count": 0,
+  "scan_pages": [],
+  "blank_pages": [],
+  "vector_only_pages": [],
+  "scan_page_count": 0,
+  "blank_page_count": 0,
+  "broken_ratio_doc": 0.0,
+  "broken_ratio_page_max": 0.0,
+  "broken_page": null,
+  "broken_chars": [],
+  "space_rate_pymupdf": 0.148,
+  "space_rate_pdfplumber": 0.1434,
+  "tables_in_sample": 2,
+  "must_contain_ok": true,
+  "must_contain_missing": [],
+  "must_not_contain_ok": true,
+  "must_not_contain_unexpected": [],
+  "quality": "표중심",
+  "handling": "표 특화 파서",
+  "difficulty": 3,
+  "traits_measured": [
+   "표중심"
+  ],
+  "bytes": 302487
+ },
+ "hana_household_loan_2014": {
+  "kind": "pdf",
+  "pages": 3,
+  "extractors": {
+   "pypdf": {
+    "chars": 10353,
+    "hangul": 5780
+   },
+   "pymupdf": {
+    "chars": 9970,
+    "hangul": 5780
+   },
+   "pdfplumber_sample": {
+    "sampled_pages": [
+     1,
+     2,
+     3
+    ],
+    "chars": 9027,
+    "spaces": 1645,
+    "tables": 5,
+    "ok": true
+   }
+  },
+  "best_parser": "pymupdf",
+  "chars": 9970,
+  "hangul": 5780,
+  "chars_per_page": 3323.3,
+  "density_cv": 0.301,
+  "empty_pages": [],
+  "empty_page_count": 0,
+  "scan_pages": [],
+  "blank_pages": [],
+  "vector_only_pages": [],
+  "scan_page_count": 0,
+  "blank_page_count": 0,
+  "broken_ratio_doc": 0.00251,
+  "broken_ratio_page_max": 0.00358,
+  "broken_page": 3,
+  "broken_chars": [
+   "U+F87F×6",
+   "U+33A1×1"
+  ],
+  "space_rate_pymupdf": 0.2503,
+  "space_rate_pdfplumber": 0.1822,
+  "tables_in_sample": 5,
+  "must_contain_ok": true,
+  "must_contain_missing": [],
+  "must_not_contain_ok": true,
+  "must_not_contain_unexpected": [],
+  "quality": "표중심",
+  "handling": "표 특화 파서",
+  "difficulty": 3,
+  "traits_measured": [
+   "표중심"
+  ],
+  "bytes": 149758
+ },
+ "hana_mortgage_2025": {
+  "kind": "pdf",
+  "pages": 26,
+  "extractors": {
+   "pypdf": {
+    "chars": 43201,
+    "hangul": 27212
+   },
+   "pymupdf": {
+    "chars": 43245,
+    "hangul": 27212
+   },
+   "pdfplumber_sample": {
+    "sampled_pages": [
+     1,
+     6,
+     11,
+     16,
+     21
+    ],
+    "chars": 7590,
+    "spaces": 1523,
+    "tables": 10,
+    "ok": true
+   }
+  },
+  "best_parser": "pymupdf",
+  "chars": 43245,
+  "hangul": 27212,
+  "chars_per_page": 1663.3,
+  "density_cv": 0.266,
+  "empty_pages": [],
+  "empty_page_count": 0,
+  "scan_pages": [],
+  "blank_pages": [],
+  "vector_only_pages": [],
+  "scan_page_count": 0,
+  "blank_page_count": 0,
+  "broken_ratio_doc": 0.00814,
+  "broken_ratio_page_max": 0.01453,
+  "broken_page": 6,
+  "broken_chars": [
+   "U+0007×14",
+   "U+278A×1"
+  ],
+  "space_rate_pymupdf": 0.2088,
+  "space_rate_pdfplumber": 0.2007,
+  "tables_in_sample": 10,
+  "must_contain_ok": true,
+  "must_contain_missing": [],
+  "must_not_contain_ok": true,
+  "must_not_contain_unexpected": [],
+  "quality": "표중심",
+  "handling": "표 특화 파서",
+  "difficulty": 3,
+  "traits_measured": [
+   "표중심"
+  ],
+  "bytes": 650495
+ },
+ "im_household_2025": {
+  "kind": "pdf",
+  "pages": 10,
+  "extractors": {
+   "pypdf": {
+    "chars": 23893,
+    "hangul": 15038
+   },
+   "pymupdf": {
+    "chars": 23007,
+    "hangul": 15038
+   },
+   "pdfplumber_sample": {
+    "sampled_pages": [
+     1,
+     3,
+     5,
+     7,
+     9
+    ],
+    "chars": 10865,
+    "spaces": 2163,
+    "tables": 13,
+    "ok": true
+   }
+  },
+  "best_parser": "pymupdf",
+  "chars": 23007,
+  "hangul": 15038,
+  "chars_per_page": 2300.7,
+  "density_cv": 0.213,
+  "empty_pages": [],
+  "empty_page_count": 0,
+  "scan_pages": [],
+  "blank_pages": [],
+  "vector_only_pages": [],
+  "scan_page_count": 0,
+  "blank_page_count": 0,
+  "broken_ratio_doc": 0.00074,
+  "broken_ratio_page_max": 0.00475,
+  "broken_page": 1,
+  "broken_chars": [
+   "U+F03A8×4",
+   "U+F0032×4",
+   "U+F03D7×2"
+  ],
+  "space_rate_pymupdf": 0.2201,
+  "space_rate_pdfplumber": 0.1991,
+  "tables_in_sample": 13,
+  "must_contain_ok": true,
+  "must_contain_missing": [],
+  "must_not_contain_ok": true,
+  "must_not_contain_unexpected": [],
+  "quality": "표중심",
+  "handling": "표 특화 파서",
+  "difficulty": 3,
+  "traits_measured": [
+   "표중심"
+  ],
+  "bytes": 451678
+ },
+ "im_mortgage_2024": {
+  "kind": "pdf",
+  "pages": 6,
+  "extractors": {
+   "pypdf": {
+    "chars": 24800,
+    "hangul": 15586
+   },
+   "pymupdf": {
+    "chars": 23719,
+    "hangul": 15586
+   },
+   "pdfplumber_sample": {
+    "sampled_pages": [
+     1,
+     2,
+     3,
+     4,
+     5
+    ],
+    "chars": 20644,
+    "spaces": 4350,
+    "tables": 18,
+    "ok": true
+   }
+  },
+  "best_parser": "pymupdf",
+  "chars": 23719,
+  "hangul": 15586,
+  "chars_per_page": 3953.2,
+  "density_cv": 0.216,
+  "empty_pages": [],
+  "empty_page_count": 0,
+  "scan_pages": [],
+  "blank_pages": [],
+  "vector_only_pages": [],
+  "scan_page_count": 0,
+  "blank_page_count": 0,
+  "broken_ratio_doc": 0.00101,
+  "broken_ratio_page_max": 0.0038,
+  "broken_page": 1,
+  "broken_chars": [
+   "U+F03A8×4",
+   "U+F0032×4",
+   "U+F03D7×2",
+   "U+F03C9×2"
+  ],
+  "space_rate_pymupdf": 0.2103,
+  "space_rate_pdfplumber": 0.2107,
+  "tables_in_sample": 18,
+  "must_contain_ok": true,
+  "must_contain_missing": [],
+  "must_not_contain_ok": true,
+  "must_not_contain_unexpected": [],
+  "quality": "표중심",
+  "handling": "표 특화 파서",
+  "difficulty": 3,
+  "traits_measured": [
+   "표중심"
+  ],
+  "bytes": 394613
+ },
+ "sf_realestate_loan_2026": {
+  "kind": "pdf",
+  "pages": 14,
+  "extractors": {
+   "pypdf": {
+    "chars": 22166,
+    "hangul": 13319
+   },
+   "pymupdf": {
+    "chars": 22254,
+    "hangul": 13319
+   },
+   "pdfplumber_sample": {
+    "sampled_pages": [
+     1,
+     3,
+     6,
+     9,
+     12
+    ],
+    "chars": 7812,
+    "spaces": 1577,
+    "tables": 12,
+    "ok": true
+   }
+  },
+  "best_parser": "pymupdf",
+  "chars": 22254,
+  "hangul": 13319,
+  "chars_per_page": 1589.6,
+  "density_cv": 0.223,
+  "empty_pages": [],
+  "empty_page_count": 0,
+  "scan_pages": [],
+  "blank_pages": [],
+  "vector_only_pages": [],
+  "scan_page_count": 0,
+  "blank_page_count": 0,
+  "broken_ratio_doc": 0.00404,
+  "broken_ratio_page_max": 0.02352,
+  "broken_page": 5,
+  "broken_chars": [
+   "U+02D9×35",
+   "U+2981×3",
+   "U+F0FE×1",
+   "U+F0A8×1"
+  ],
+  "space_rate_pymupdf": 0.2544,
+  "space_rate_pdfplumber": 0.2019,
+  "tables_in_sample": 12,
+  "must_contain_ok": true,
+  "must_contain_missing": [],
+  "must_not_contain_ok": true,
+  "must_not_contain_unexpected": [],
+  "quality": "표중심",
+  "handling": "표 특화 파서",
+  "difficulty": 3,
+  "traits_measured": [
+   "표중심"
+  ],
+  "bytes": 576774
+ },
+ "fss_case_001": {
+  "kind": "html",
+  "pages": null,
+  "chars": 19914,
+  "hangul": 14401,
+  "best_parser": "html_strip",
+  "must_contain_ok": true,
+  "must_contain_missing": [],
+  "must_not_contain_ok": true,
+  "must_not_contain_unexpected": [],
+  "quality": "정상텍스트",
+  "handling": "직접 파싱",
+  "difficulty": 1,
+  "traits_measured": [],
+  "bytes": 661726
+ },
+ "fss_case_002": {
+  "kind": "html",
+  "pages": null,
+  "chars": 19787,
+  "hangul": 14340,
+  "best_parser": "html_strip",
+  "must_contain_ok": true,
+  "must_contain_missing": [],
+  "must_not_contain_ok": true,
+  "must_not_contain_unexpected": [],
+  "quality": "정상텍스트",
+  "handling": "직접 파싱",
+  "difficulty": 1,
+  "traits_measured": [],
+  "bytes": 661474
+ },
+ "fss_case_003": {
+  "kind": "html",
+  "pages": null,
+  "chars": 19787,
+  "hangul": 14304,
+  "best_parser": "html_strip",
+  "must_contain_ok": true,
+  "must_contain_missing": [],
+  "must_not_contain_ok": true,
+  "must_not_contain_unexpected": [],
+  "quality": "정상텍스트",
+  "handling": "직접 파싱",
+  "difficulty": 1,
+  "traits_measured": [],
+  "bytes": 661396
+ },
+ "fss_case_004": {
+  "kind": "html",
+  "pages": null,
+  "chars": 19678,
+  "hangul": 14246,
+  "best_parser": "html_strip",
+  "must_contain_ok": true,
+  "must_contain_missing": [],
+  "must_not_contain_ok": true,
+  "must_not_contain_unexpected": [],
+  "quality": "정상텍스트",
+  "handling": "직접 파싱",
+  "difficulty": 1,
+  "traits_measured": [],
+  "bytes": 661172
+ },
+ "fss_case_005": {
+  "kind": "html",
+  "pages": null,
+  "chars": 19882,
+  "hangul": 14420,
+  "best_parser": "html_strip",
+  "must_contain_ok": true,
+  "must_contain_missing": [],
+  "must_not_contain_ok": true,
+  "must_not_contain_unexpected": [],
+  "quality": "정상텍스트",
+  "handling": "직접 파싱",
+  "difficulty": 1,
+  "traits_measured": [],
+  "bytes": 661723
+ },
+ "fss_case_006": {
+  "kind": "html",
+  "pages": null,
+  "chars": 20162,
+  "hangul": 14633,
+  "best_parser": "html_strip",
+  "must_contain_ok": true,
+  "must_contain_missing": [],
+  "must_not_contain_ok": true,
+  "must_not_contain_unexpected": [],
+  "quality": "정상텍스트",
+  "handling": "직접 파싱",
+  "difficulty": 1,
+  "traits_measured": [],
+  "bytes": 662425
+ },
+ "fss_case_007": {
+  "kind": "html",
+  "pages": null,
+  "chars": 19794,
+  "hangul": 14357,
+  "best_parser": "html_strip",
+  "must_contain_ok": true,
+  "must_contain_missing": [],
+  "must_not_contain_ok": true,
+  "must_not_contain_unexpected": [],
+  "quality": "정상텍스트",
+  "handling": "직접 파싱",
+  "difficulty": 1,
+  "traits_measured": [],
+  "bytes": 661505
+ },
+ "fss_case_008": {
+  "kind": "html",
+  "pages": null,
+  "chars": 20127,
+  "hangul": 14591,
+  "best_parser": "html_strip",
+  "must_contain_ok": true,
+  "must_contain_missing": [],
+  "must_not_contain_ok": true,
+  "must_not_contain_unexpected": [],
+  "quality": "정상텍스트",
+  "handling": "직접 파싱",
+  "difficulty": 1,
+  "traits_measured": [],
+  "bytes": 662335
+ },
+ "fss_case_009": {
+  "kind": "html",
+  "pages": null,
+  "chars": 19953,
+  "hangul": 14475,
+  "best_parser": "html_strip",
+  "must_contain_ok": true,
+  "must_contain_missing": [],
+  "must_not_contain_ok": true,
+  "must_not_contain_unexpected": [],
+  "quality": "정상텍스트",
+  "handling": "직접 파싱",
+  "difficulty": 1,
+  "traits_measured": [],
+  "bytes": 661905
+ },
+ "fss_case_010": {
+  "kind": "html",
+  "pages": null,
+  "chars": 20140,
+  "hangul": 14566,
+  "best_parser": "html_strip",
+  "must_contain_ok": true,
+  "must_contain_missing": [],
+  "must_not_contain_ok": true,
+  "must_not_contain_unexpected": [],
+  "quality": "정상텍스트",
+  "handling": "직접 파싱",
+  "difficulty": 1,
+  "traits_measured": [],
+  "bytes": 662272
+ },
+ "degraded_hana_mortgage_2025": {
+  "kind": "pdf",
+  "pages": 2,
+  "extractors": {
+   "pypdf": {
+    "chars": 0,
+    "hangul": 0
+   },
+   "pymupdf": {
+    "chars": 0,
+    "hangul": 0
+   },
+   "pdfplumber_sample": {
+    "sampled_pages": [
+     1,
+     2
+    ],
+    "chars": 0,
+    "spaces": 0,
+    "tables": 0,
+    "ok": true
+   }
+  },
+  "best_parser": "pymupdf",
+  "chars": 0,
+  "hangul": 0,
+  "chars_per_page": 0.0,
+  "density_cv": 0.0,
+  "empty_pages": [
+   1,
+   2
+  ],
+  "empty_page_count": 2,
+  "scan_pages": [
+   1,
+   2
+  ],
+  "blank_pages": [],
+  "vector_only_pages": [],
+  "scan_page_count": 2,
+  "blank_page_count": 0,
+  "broken_ratio_doc": 0.0,
+  "broken_ratio_page_max": 0.0,
+  "broken_page": null,
+  "broken_chars": [],
+  "space_rate_pymupdf": 0.0,
+  "space_rate_pdfplumber": 0.0,
+  "tables_in_sample": 0,
+  "must_contain_ok": true,
+  "must_contain_missing": [],
+  "must_not_contain_ok": true,
+  "must_not_contain_unexpected": [],
+  "quality": "이미지전용",
+  "handling": "전체 OCR",
+  "difficulty": 5,
+  "traits_measured": [
+   "이미지전용",
+   "스캔페이지혼재"
+  ],
+  "bytes": 965705
+ },
+ "degraded_kbstar_deposit_2021": {
+  "kind": "pdf",
+  "pages": 1,
+  "extractors": {
+   "pypdf": {
+    "chars": 0,
+    "hangul": 0
+   },
+   "pymupdf": {
+    "chars": 0,
+    "hangul": 0
+   },
+   "pdfplumber_sample": {
+    "sampled_pages": [
+     1
+    ],
+    "chars": 0,
+    "spaces": 0,
+    "tables": 0,
+    "ok": true
+   }
+  },
+  "best_parser": "pymupdf",
+  "chars": 0,
+  "hangul": 0,
+  "chars_per_page": 0.0,
+  "density_cv": 0.0,
+  "empty_pages": [
+   1
+  ],
+  "empty_page_count": 1,
+  "scan_pages": [
+   1
+  ],
+  "blank_pages": [],
+  "vector_only_pages": [],
+  "scan_page_count": 1,
+  "blank_page_count": 0,
+  "broken_ratio_doc": 0.0,
+  "broken_ratio_page_max": 0.0,
+  "broken_page": null,
+  "broken_chars": [],
+  "space_rate_pymupdf": 0.0,
+  "space_rate_pdfplumber": 0.0,
+  "tables_in_sample": 0,
+  "must_contain_ok": true,
+  "must_contain_missing": [],
+  "must_not_contain_ok": true,
+  "must_not_contain_unexpected": [],
+  "quality": "이미지전용",
+  "handling": "전체 OCR",
+  "difficulty": 5,
+  "traits_measured": [
+   "이미지전용",
+   "스캔페이지혼재"
+  ],
+  "bytes": 258329
+ }
+}

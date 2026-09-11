@@ -1,0 +1,4 @@
+requests>=2.32
+pypdf>=6
+pymupdf>=1.26
+pdfplumber>=0.11
